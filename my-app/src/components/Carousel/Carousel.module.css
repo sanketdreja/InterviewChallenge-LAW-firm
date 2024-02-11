@@ -1,0 +1,32 @@
+.container {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+}
+
+.button {
+  background-color: wheat;
+  height: 5.663125em;
+  width: 5.663125em;
+  margin: 1em;
+  border-radius: 5.663125em;
+}
+
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.swiperContainer {
+  background-color: wheat;
+  height: 50em;
+}
