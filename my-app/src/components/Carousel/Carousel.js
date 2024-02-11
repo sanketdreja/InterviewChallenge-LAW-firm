@@ -26,7 +26,7 @@ function Carousel() {
     <Box className={styles.container}>
       <Box className={styles.headerWrapper}>
         <Box>
-          <Typography variant="h2">
+          <Typography variant="h3">
             What says our <br />
             happy Clients
           </Typography>

@@ -47,4 +47,6 @@
 .wrapper {
   /* border: 1px solid white; */
   width: 80%;
+  background: linear-gradient(0deg, #1d1d1d, #1d1d1d),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
 }
