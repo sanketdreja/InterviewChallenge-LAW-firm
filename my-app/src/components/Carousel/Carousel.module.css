@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 70%;
+  width: 80%;
 }
 
 .button {
@@ -12,6 +12,10 @@
   width: 4em;
   margin: 1em;
   border-radius: 5.663125em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 /* .button :hover {
@@ -23,6 +27,7 @@
 } */
 
 .headerWrapper {
+  padding-top: 4em;
   display: flex;
   justify-content: space-between;
 }
@@ -35,6 +40,30 @@
 }
 
 .swiperContainer {
-  background-color: wheat;
-  height: 50em;
+  padding-top: 4em;
+  /* background-color: var(--color-white); */
+  height: 25em;
+}
+
+.cardGiftIcon {
+  /* border: 1px solid wheat; */
+  background-color: var(--color-white);
+  border-radius: 50px;
+  width: 6.25em;
+  height: 6.25em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  border: 1px solid var(--color-white);
+  border-radius: 1em;
+  height: 17.5em;
+  width: 15em;
+  padding: 1em;
+  /* margin: 1em; */
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

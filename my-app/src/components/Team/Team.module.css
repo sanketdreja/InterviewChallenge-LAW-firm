@@ -1,0 +1,43 @@
+.teamWrapper {
+  /* border: 1px solid white; */
+  /* height: 5em; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+.nameCard {
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 15em;
+  padding: 1em;
+  border-radius: 1em;
+}
+.cardGridItem {
+  /* background-color: var(--color-black); */
+  color: var(--color-white);
+}
+.cardGridItem :hover {
+  background-color: var(--color-primary);
+  color: var(--color-black);
+}
+
+.nameCardImage {
+  width: 3.5em;
+  height: 3.5em;
+  background-color: wheat;
+  border-radius: 5em;
+}
+.nameCardBox {
+  /* margin: 2em; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
