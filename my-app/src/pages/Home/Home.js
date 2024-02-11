@@ -10,10 +10,10 @@ function Home() {
       <Navbar />
       <Box className={styles.coverContainer}>
         <Box className={styles.coverTextContainer}>
-          <Typography variant="h3">
+          <Typography variant="h2">
             You don’t have to Fight them Alone.
           </Typography>{" "}
-          <Typography variant="p2">
+          <Typography variant="h6">
             Lorem ipsum dolor sit amet consectetur adipiscing elit blandit,
             curabitur sodales conubia ut inceptos faucibus himenaeos tortor
             eget, hac massa gravida arcu interdum proin curae.
