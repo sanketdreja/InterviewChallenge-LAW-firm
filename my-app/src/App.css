@@ -1,9 +1,9 @@
 .App {
   text-align: center;
   color: var(--color-white);
-
-  background: linear-gradient(0deg, #1d1d1d, #1d1d1d),
-    linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+  background-color: var(--color-black);
+  /* background: linear-gradient(0deg, #1d1d1d, #1d1d1d),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)); */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,6 +45,6 @@
 }
 
 .wrapper {
-  border: 1px solid white;
+  /* border: 1px solid white; */
   width: 80%;
 }

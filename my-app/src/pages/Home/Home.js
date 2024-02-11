@@ -10,18 +10,16 @@ function Home() {
       <Navbar />
       <Box className={styles.coverContainer}>
         <Box className={styles.coverTextContainer}>
-          <Typography variant="h2">
+          <Typography variant="h3">
             You don’t have to Fight them Alone.
           </Typography>{" "}
-          <Typography variant="h6">
+          <Typography variant="p">
             Lorem ipsum dolor sit amet consectetur adipiscing elit blandit,
             curabitur sodales conubia ut inceptos faucibus himenaeos tortor
             eget, hac massa gravida arcu interdum proin curae.
           </Typography>
           <Box className={styles.contactForm}>
-            <Box
-              sx={{ display: "flex", alignItems: "flex-end", padding: "1em" }}
-            >
+            <Box sx={{ display: "flex", justifyContent: "center" }}>
               {/* <AccountCircle sx={{ color: "action.active", mr: 1, my: 0.5 }} /> */}
               <TextField
                 id="input-with-sx"
@@ -39,13 +37,13 @@ function Home() {
               sx={{
                 borderRadius: "50px",
                 color: "var(--color-black )",
-                fontSize: "1em",
+                fontSize: "0.75em",
                 fontWeight: "700",
                 right: "0.1em",
                 paddingLeft: "1em",
                 paddingRight: "1em",
 
-                margin: "1em",
+                // margin: "1em",
               }}
               variant="contained"
               color="ochre"

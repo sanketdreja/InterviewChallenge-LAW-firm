@@ -12,27 +12,27 @@ function PracticeAreas() {
   return (
     <Box className={styles.container}>
       <Box>
-        <Typography variant="h2">Area of Practices</Typography>
+        <Typography variant="h3">Area of Practices</Typography>
       </Box>
       <Box className={styles.imageContainer}>
         <Grid container rowSpacing={3}>
-          <Grid item xs={8}>
+          <Grid item xs={6} md={8}>
             <img src={BussinessLaw} />
             {/* <Typography variant="h3">Bussiness Law</Typography> */}
           </Grid>
-          <Grid item xs={4}>
+          <Grid item xs={6} md={4}>
             <img src={PartnershipLawCover} />
           </Grid>
-          <Grid item xs={4}>
+          <Grid item xs={6} md={4}>
             <img src={RealEstate} />
           </Grid>
-          <Grid item xs={8}>
+          <Grid item xs={6} md={8}>
             <img src={Bussiness} />
           </Grid>
-          <Grid item xs={8}>
+          <Grid item xs={6} md={8}>
             <img src={Landlord} />
           </Grid>
-          <Grid item xs={4}>
+          <Grid item xs={6} md={4}>
             <img src={ElderLaw} />
           </Grid>
         </Grid>

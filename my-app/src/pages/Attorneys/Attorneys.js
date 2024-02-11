@@ -7,11 +7,11 @@ function Attorneys() {
     <Box className={styles.container}>
       <Box className={styles.introContainer}>
         <Box className={styles.introBox}>
-          <Typography variant="h2">Let’s Introduce Ourself</Typography>
+          <Typography variant="h3">Let’s Introduce Ourself</Typography>
         </Box>
         <hr></hr>
         <Box className={styles.introDescrBox}>
-          <Typography variant="h3">Criminal Lawyer</Typography>{" "}
+          <Typography variant="h4">Criminal Lawyer</Typography>{" "}
           <Typography variant="p">
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
             sint. Velit officia consequatduis enim velit mollit Exercitation.
@@ -22,15 +22,15 @@ function Attorneys() {
       <Box className={styles.wrapper}>
         <Box>
           {" "}
-          <Typography variant="h2">Why Choose us?</Typography>
+          <Typography variant="h3">Why Choose us?</Typography>
         </Box>
         <Box className={styles.cardWrapper}>
           <Box className={styles.card}>
             <Box className={styles.cardGiftIcon}>
               <img src={GiftImage} alt="Description of the image" />
             </Box>
-            <Typography variant="h3">98% Success Rate</Typography>
-            <Typography variant="p">
+            <Typography variant="h4">98% Success Rate</Typography>
+            <Typography variant="p2">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequatduis enim velit mollit Exer.
             </Typography>
@@ -52,8 +52,8 @@ function Attorneys() {
             <Box className={styles.cardGiftIcon}>
               <img src={GiftImage} alt="Description of the image" />
             </Box>
-            <Typography variant="h3">100% Success Rate</Typography>
-            <Typography variant="p">
+            <Typography variant="h4">100% Success Rate</Typography>
+            <Typography variant="p2">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequatduis enim velit mollit Exer.
             </Typography>
@@ -75,8 +75,8 @@ function Attorneys() {
             <Box className={styles.cardGiftIcon}>
               <img src={GiftImage} alt="Description of the image" />
             </Box>
-            <Typography variant="h3">100% Success Rate</Typography>
-            <Typography variant="p">
+            <Typography variant="h4">100% Success Rate</Typography>
+            <Typography variant="p2">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequatduis enim velit mollit Exer.
             </Typography>
