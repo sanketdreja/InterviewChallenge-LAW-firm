@@ -1,0 +1,27 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #474747;
+  width: 80%;
+}
+.formTitle {
+  margin: 2em;
+}
+.form {
+  display: flex;
+  margin-bottom: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formButtom {
+  height: 60%;
+  background-color: var(--color-primary);
+  color: var(--color-black);
+  padding: 1em;
+  font-weight: 700;
+  font-size: 1em;
+}

@@ -6,6 +6,8 @@ import Attorneys from "./pages/Attorneys/Attorneys";
 import PracticeAreas from "./pages/PracticeAreas/PracticeAreas";
 import Carousel from "./components/Carousel/Carousel";
 import Team from "./components/Team/Team";
+import About from "./pages/About/About";
+import Subscribe from "./components/Subscribe/Subscribe";
 function App() {
   return (
     <Box className="App">
@@ -13,16 +15,10 @@ function App() {
         <Home />
         <Attorneys />
         <PracticeAreas />
-        <Box
-          sx={{
-            color: "var(--color-white)",
-            display: "flex",
-            justifyContent: "center",
-          }}
-        >
-          <Carousel />
-        </Box>
+        <Carousel />
         <Team />
+        <About />
+        <Subscribe />
       </Box>
     </Box>
   );

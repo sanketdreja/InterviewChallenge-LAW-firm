@@ -1,0 +1,23 @@
+.titleBox {
+  display: flex;
+  padding: 1em;
+  justify-content: space-between;
+}
+.descriptionBox {
+  padding: 1em;
+}
+
+.buttonBox {
+  cursor: pointer;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 1.5em;
+  background-color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accordianContainer {
+  border: 1px solid #474747;
+}
