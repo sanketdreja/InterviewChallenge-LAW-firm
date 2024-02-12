@@ -8,6 +8,7 @@ import Carousel from "./components/Carousel/Carousel";
 import Team from "./components/Team/Team";
 import About from "./pages/About/About";
 import Subscribe from "./components/Subscribe/Subscribe";
+import Footer from "./pages/Footer/Footer";
 function App() {
   return (
     <Box className="App">
@@ -19,6 +20,7 @@ function App() {
         <Team />
         <About />
         <Subscribe />
+        <Footer />
       </Box>
     </Box>
   );

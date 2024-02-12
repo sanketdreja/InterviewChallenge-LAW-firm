@@ -14,26 +14,34 @@ function Subscribe() {
           placeholder="Name"
           sx={{
             backgroundColor: "#FFFFFF",
-            margin: "1em",
-            borderTopLeftRadius: "1em",
-            borderBottomLeftRadius: "1em",
+            margin: "0.5em",
+            marginLeft: "0.5em",
+            marginRight: "0.5em",
+            borderTopLeftRadius: "0.5em",
+            borderBottomLeftRadius: "0.5em",
           }}
         />
         <TextField
           variant="outlined"
           placeholder="Enter your Email"
-          sx={{ backgroundColor: "#FFFFFF", margin: "1em" }}
+          sx={{
+            backgroundColor: "#FFFFFF",
+            marginLeft: "0.5em",
+            marginRight: "0.5em",
+          }}
         />
         {/* <Box className={styles.formButtom}>send</Box> */}
         <Button
           variant="contained"
           color="ochre"
           sx={{
+            marginLeft: "0.5em",
+            marginRight: "0.5em",
             color: "dark",
             fontWeight: "700",
             padding: "1.2em",
-            borderTopRightRadius: "1em",
-            borderBottomRightRadius: "1em",
+            borderTopRightRadius: "0.5em",
+            borderBottomRightRadius: "0.5em",
           }}
         >
           {" "}

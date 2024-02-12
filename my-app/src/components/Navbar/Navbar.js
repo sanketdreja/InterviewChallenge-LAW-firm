@@ -49,9 +49,7 @@ function Navbar() {
         </Link>
       </Box>
       <Box className={styles.contact}>
-        <Button variant="text " sx={{}}>
-          Contact Now
-        </Button>
+        <Button variant="text ">Contact Now</Button>
       </Box>
     </Box>
   );
